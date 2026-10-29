@@ -2,13 +2,6 @@
 
 Repositório com scripts para download dos **arquivos oficiais de totalização** das Eleições 2026 disponibilizados pelo Tribunal Superior Eleitoral (TSE).
 
-Os arquivos incluem:
-- Boletins de Urna (BU)
-- Imagens dos Boletins de Urna
-- Logs das urnas (logjez)
-- Registros Digitais de Voto (RDV)
-- Arquivos de verificação (vscmr)
-
 ## Estrutura do projeto
 
 ```
@@ -22,13 +15,20 @@ tse-eleicao-presidente-2026/
 
 ## Como usar
 
-### 1. Requisitos
+### 1. Clonar o repositório
+
+```bash
+git clone https://github.com/claudiotorresarbe/tse-eleicao-presidente-2026.git
+cd tse-eleicao-presidente-2026
+```
+
+### 2. Requisitos
 
 ```bash
 pip install requests
 ```
 
-### 2. Executar o download
+### 3. Executar o download
 
 ```bash
 python run.py
@@ -39,7 +39,7 @@ O script irá:
 - Baixar os arquivos em paralelo (padrão: 2 downloads simultâneos)
 - Salvar tudo na pasta `downloads/`
 
-### 3. Configurações
+### 4. Configurações
 
 Você pode alterar a quantidade de downloads simultâneos editando a variável no arquivo `run.py`:
 
