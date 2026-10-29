@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 # variáveis
-NUCLEOS = 4 # permite baixar 3 arquivos por vez
+NUCLEOS = 4 # permite baixar 4 arquivos por vez
 LINKS = './source/links.csv'
 
 # inicio do programa
