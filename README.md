@@ -2,6 +2,13 @@
 
 Repositório com scripts para download dos **arquivos oficiais de totalização** das Eleições 2026 disponibilizados pelo Tribunal Superior Eleitoral (TSE).
 
+Os arquivos incluem:
+- Boletins de Urna (BU)
+- Imagens dos Boletins de Urna
+- Logs das urnas (logjez)
+- Registros Digitais de Voto (RDV)
+- Arquivos de verificação (vscmr)
+
 ## Estrutura do projeto
 
 ```
