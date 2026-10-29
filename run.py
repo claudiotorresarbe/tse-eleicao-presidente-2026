@@ -3,7 +3,7 @@ import subprocess
 from pathlib import Path
 
 # variáveis
-NUCLEOS = 4 # permite baixar 2 arquivos por vez
+NUCLEOS = 4 # permite baixar 3 arquivos por vez
 LINKS = './source/links.csv'
 
 # inicio do programa
@@ -13,10 +13,11 @@ DESTINO.mkdir(exist_ok=True)
 
 with open(LINKS,'r') as f:
     for x in f.readlines():
-        linha = x.split('|')
-        link = linha[0].strip()
-        filename = link.split('/')[8].strip()
-        URL.append([linha, filename])
+        if x.count('2t'):
+            linha = x.split('|')
+            link = linha[0].strip()
+            filename = link.split('/')[8].strip()
+            URL.append([linha, filename])
 
 processos = []
 
