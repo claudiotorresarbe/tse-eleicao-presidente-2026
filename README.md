@@ -42,7 +42,7 @@ python run.py
 
 O script irá:
 - Ler todos os links do arquivo `source/links.csv`
-- Baixar os arquivos em paralelo (padrão: 2 downloads simultâneos)
+- Baixar os arquivos em paralelo (padrão: 4 downloads simultâneos)
 - Salvar tudo na pasta `downloads/`
 
 ### 4. Configurações
