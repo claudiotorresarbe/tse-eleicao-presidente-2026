@@ -26,7 +26,6 @@ tse-eleicao-presidente-2026/
 
 ```bash
 git clone https://github.com/claudiotorresarbe/tse-eleicao-presidente-2026.git
-cd tse-eleicao-presidente-2026
 ```
 
 ### 2. Requisitos
@@ -51,7 +50,7 @@ O script irá:
 Você pode alterar a quantidade de downloads simultâneos editando a variável no arquivo `run.py`:
 
 ```python
-NUCLEOS = 2   # Altere para 4, 6, 8 etc. conforme sua conexão
+NUCLEOS = 4   # Altere para 4, 6, 8 etc. conforme sua conexão e quantidade de núcleos do seu PC
 ```
 
 ## Fonte dos dados
@@ -72,4 +71,3 @@ https://cdn.tse.jus.br/estatistica/sead/eleicoes/eleicoes2026/arqurnatot/
 
 Os dados pertencem ao **Tribunal Superior Eleitoral**.  
 Este repositório apenas facilita o download automatizado dos arquivos públicos.
-```
